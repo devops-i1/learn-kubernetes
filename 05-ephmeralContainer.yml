@@ -10,3 +10,6 @@ spec:
         - /nodejs/bin/node
         - -e
         - 'setTimeout(() => console.log("done"), 999999)'
+
+# type this in terminal you can get sh/bash in octant
+# kubectl debug -it --attach=true -c debuggerv --image=centos pod-05
